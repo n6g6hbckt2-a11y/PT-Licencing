@@ -108,11 +108,20 @@ section {
 }
 
 .site-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--accent);
   text-decoration: none;
   white-space: nowrap;
+}
+
+.site-logo {
+  display: block;
+  height: 1.6rem;
+  width: auto;
 }
 
 .site-nav ul {
