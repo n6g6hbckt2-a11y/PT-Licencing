@@ -27,11 +27,6 @@
     <div class="container">
       <h1>Contact</h1>
 
-      <p class="placeholder-note">
-        Placeholder content &mdash; the form is not yet wired to a backend. Connect
-        the form before going live.
-      </p>
-
       <section>
         <h2>Get in touch</h2>
         <p>
@@ -46,7 +41,9 @@
 
       <section>
         <h2>Send a message</h2>
-        <form action="#" method="post">
+        <form action="https://formspree.io/f/mljeabpj" method="POST">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_subject" value="New enquiry from the PT Licensing website">
           <div class="form-row">
             <label for="name">Your name</label>
             <input type="text" id="name" name="name" autocomplete="name" required>
